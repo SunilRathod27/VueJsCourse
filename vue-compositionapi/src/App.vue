@@ -43,13 +43,13 @@ export default {
         LifeCycle,
     },
     setup() {
-        let name = ref('Leela Web Dev');
+        let name = ref('Demo Web Dev');
         let showLifeCycle = ref(true);
         let firstName = ref('');
         let lastName = ref('');
 
         let userDetails = reactive({
-            name: 'Leela',
+            name: 'Demo',
             age: 30,
         });
 
@@ -66,7 +66,7 @@ export default {
         }
 
         function changeName() {
-            userDetails.name = 'Modified Leela';
+            userDetails.name = 'Modified Demo';
         }
 
         return {
@@ -81,12 +81,12 @@ export default {
     },
     // data() {
     //     return {
-    //         userName: 'Leela Web Dev',
+    //         userName: 'Demo Web Dev',
     //     };
     // },
     // mounted() {
     //     setTimeout(() => {
-    //         this.userName = 'Leela';
+    //         this.userName = 'Demo';
     //     }, 3000);
     // },
 };

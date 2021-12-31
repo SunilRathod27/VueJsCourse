@@ -5,7 +5,7 @@
         <div>{{ state.name }}</div>
 
         <div>
-            <button @click.prevent="state.name = 'Updated Leela web dev'">
+            <button @click.prevent="state.name = 'Updated Demo web dev'">
                 Update Name
             </button>
         </div>
@@ -27,7 +27,7 @@ import {
 export default {
     setup() {
         const state = reactive({
-            name: 'Leela Web Dev',
+            name: 'Demo Web Dev',
         });
 
         onBeforeMount(() => {

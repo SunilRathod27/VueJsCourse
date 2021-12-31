@@ -4,8 +4,8 @@
         <div>Article id : {{ id }}</div>
 
         <div>
-            <router-link to="/article/leela"
-                >Go to leela article</router-link
+            <router-link to="/article/Demo"
+                >Go to Demo article</router-link
             >
         </div>
     </div>

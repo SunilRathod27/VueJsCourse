@@ -30,7 +30,7 @@ export default {
             return new Promise((resolve) => {
                 setTimeout(() => {
                     context.commit(COUNTER_ON_INCREMENT, { value: 1 });
-                    resolve('Leela Web Dev');
+                    resolve('Demo Web Dev');
                 }, 2000);
             });
         },

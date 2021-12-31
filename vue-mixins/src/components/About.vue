@@ -14,7 +14,7 @@ import { ref } from 'vue';
 import useCounter from '../hooks/useCounter';
 export default {
     setup() {
-        const name = ref('Leela');
+        const name = ref('Demo');
         const counterData = useCounter(10);
 
         return {

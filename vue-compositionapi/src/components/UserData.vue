@@ -31,7 +31,7 @@ export default {
             return user.name + 'age: ' + user.age;
         });
         function changeName() {
-            user.name = 'Modified Leela';
+            user.name = 'Modified Demo';
         }
 
         function changeAge() {

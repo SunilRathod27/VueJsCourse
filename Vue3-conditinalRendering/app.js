@@ -4,7 +4,7 @@ const app = Vue.createApp({
             hobbies: [],
             enteredHobbyValue: '',
             userDetails: {
-                firstName: 'Leela',
+                firstName: 'Demo',
                 lastName: 'Web Dev',
                 age: 34,
             },

@@ -2,7 +2,7 @@
     <div>
         <div>Post Page</div>
         <div>Post id: {{ id }}</div>
-        <router-link to="/post/leela">Go to Leela Post</router-link>
+        <router-link to="/post/Demo">Go to Demo Post</router-link>
     </div>
 </template>
 

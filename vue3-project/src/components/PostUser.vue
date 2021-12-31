@@ -4,7 +4,7 @@
         <div>
             <a
                 href=""
-                @click.prevent="changeuser('Updated leela from child')"
+                @click.prevent="changeuser('Updated demo from child')"
                 >Change User</a
             >
         </div>

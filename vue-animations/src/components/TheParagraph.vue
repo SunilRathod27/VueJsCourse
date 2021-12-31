@@ -1,7 +1,7 @@
 <template>
     <div class="text-center">
         <transition>
-            <p v-if="showParagraph">Hai Leela</p>
+            <p v-if="showParagraph">Hai Demo</p>
         </transition>
 
         <button class="btn btn-primary" @click.prevent="onToggle()">

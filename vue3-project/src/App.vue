@@ -55,7 +55,7 @@ export default {
                     description: 'Post Description 2',
                 },
             ],
-            user: 'Leela Web Dev',
+            user: 'Demo Web Dev',
         };
     },
     provide() {
@@ -69,7 +69,7 @@ export default {
             if (user) {
                 this.user = user;
             } else {
-                this.user = 'Updated Leela Web Dev';
+                this.user = 'Updated Demo Web Dev';
             }
         },
         onTitleChange(event) {
